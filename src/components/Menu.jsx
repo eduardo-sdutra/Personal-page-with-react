@@ -13,10 +13,10 @@ const Menu = props => {
                 <span className="name">{name}</span>
                 <ul className="menuLinks">
                     <li>
-                        <a href="#">Início</a>
+                        <a href="#inicio">Início</a>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#sc-dkPtRN cmlbRe">Sobre</a>
                     </li>
                     <li>
                         <a href="#">Habilidades</a>

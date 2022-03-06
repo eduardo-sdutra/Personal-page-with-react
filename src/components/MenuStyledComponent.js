@@ -10,6 +10,9 @@ export const MenuStyledComponent = styled.div`
         }
     }
 
+    position: fixed;
+    width: 100%;
+
     .menu {
         display: flex;
         justify-content: space-between;

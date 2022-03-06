@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { SectionContainer } from '../components/SectionContainer'
 
-const Container = styled.div`
+const Wrapper = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
     @media (min-width: 501px) {
@@ -14,18 +14,17 @@ const Container = styled.div`
     @media (max-width: 500px) {
         img {
             width: 70%
-            min-width: 300px;
             height: 70%
         }
     }
 
+    height: 670px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
     overflow: hidden;
 
     h1 {
         font-size: 2.8rem;
-        padding-top: 50px;
+        padding-top: 90px;
         padding-left: 10px;
     }
 
@@ -40,11 +39,11 @@ const Container = styled.div`
 const Header = props => {
     return (
         <SectionContainer>
-            <Container className='header'>
+            <Wrapper className='header'>
                     <h1>Eduardo Soares Dutra</h1>
                     <h2>Estudante de Ciência da Computação | Desenvolvedor front-end</h2>
                     <img src="src\media\Code typing-bro.svg" alt="Front-end Dev" />
-            </Container>
+            </Wrapper>
         </SectionContainer>
     )
 }
