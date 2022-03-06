@@ -6,19 +6,22 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: #673AB7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #6246ea;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6246ea, #512DA8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6246ea, #512DA8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
     h1 {
         font-size: 2.5rem;
-        padding: 50px;
+        padding-top: 50px;
     }
 
     .info {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
         font-size: 1.3rem;
         padding: 50px 0;
     }
@@ -31,9 +34,8 @@ const Wrapper = styled.div`
 
     .info p {
         text-align: justify;
-        text-justify: inter-word;
         width: 400px;
-        padding: 0 50px;
+        padding-top: 50px;
     }
 `
 
