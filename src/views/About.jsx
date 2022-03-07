@@ -6,6 +6,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    color: #2b2c34;
     background: #6246ea;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6246ea, #512DA8);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6246ea, #512DA8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
