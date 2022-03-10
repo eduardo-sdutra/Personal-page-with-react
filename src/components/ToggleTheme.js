@@ -12,5 +12,5 @@ export const ToggleTheme = styled.button`
     &: focus {
         border: none;
     }
-    transition: all .7s ease-in-out;
+    transition: all .3s ease-in-out;
 `
