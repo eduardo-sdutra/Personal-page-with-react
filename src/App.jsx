@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
+import styled from 'styled-components'
 
 import GlobalStyle from './styles/globals'
 import light from './styles/themes/light'
@@ -7,6 +8,14 @@ import dark from './styles/themes/dark'
 import Menu from './components/Menu'
 import Header from './views/Header'
 import About from './views/About'
+import Skills from './views/Skills'
+
+const CardWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`
 
 function App() {
   const [theme, setTheme] = useState(light)
@@ -21,7 +30,10 @@ function App() {
         <GlobalStyle />
         <Menu theme={theme} toggleTheme={toggleTheme} />
         <Header />
-        <About />
+        <CardWrapper>
+          <About />
+          <Skills />
+        </CardWrapper>
       </ThemeProvider>
     </div>
   )
