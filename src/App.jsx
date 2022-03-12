@@ -12,9 +12,11 @@ import Skills from './views/Skills'
 
 const CardWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
 `
 
 function App() {

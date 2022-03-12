@@ -1,28 +1,8 @@
 import styled from 'styled-components'
+import { CardTemplate } from '../components/CardTemplate'
 import { SectionContainer } from '../components/SectionContainer'
 
 const Wrapper = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #2b2c34;
-
-    h1 {
-        font-size: 2.5rem;
-        padding-top: 50px;
-    }
-
-    .content {
-        background: #6246ea;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #6246ea, #512DA8);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #6246ea, #512DA8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-        border-radius: 25px;
-        padding: 0 20px;
-    }
-
     .infoWrapper {
         display: flex;
         flex-direction: column;
@@ -56,25 +36,27 @@ const Wrapper = styled.div`
 const About = props => {
     return (
         <SectionContainer>
-            <Wrapper>
-                <div className="content">
+            <CardTemplate>
+                <Wrapper>
                     <div className="infoWrapper">
                         <h1>Um pouco sobre mim :)</h1>
                         <div className="info">
                             <img src="src\media\eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
                             <p>
-                                Oi, meu nome é Eduardo, sou estudante do quinto período de Ciência da Computação, possuo
+                                Oi, meu nome é Eduardo, sou estudante do quinto período de Ciência da Computação,
+                                possuo
                                 raciocínio
                                 lógico e criativo desenvolvidos,
                                 além de conhecimento e domínio da lógica de programação, conceitos de programação e
                                 desenvolvimento de software. Atualmente estou me aventurando no desenvolvimento web
-                                utilizando tecnologias como React, ao mesmo tempo que procuro por uma oportunidade para
+                                utilizando tecnologias como React, ao mesmo tempo que procuro por uma oportunidade
+                                para
                                 mostrar minhas habilidades como desenvolvedor.
                             </p>
                         </div>
                     </div>
-                </div>
-            </Wrapper>
+                </Wrapper>
+            </CardTemplate>
         </SectionContainer>
     )
 }
