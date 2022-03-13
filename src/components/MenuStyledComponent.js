@@ -20,6 +20,8 @@ export const MenuStyledComponent = styled.div`
         height: 60px;
         font-family: 'Roboto';
         font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 1px;
         background-color: ${props => props.theme.colors.primary};
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }

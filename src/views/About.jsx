@@ -3,11 +3,8 @@ import { CardTemplate } from '../components/CardTemplate'
 import { SectionContainer } from '../components/SectionContainer'
 
 const Wrapper = styled.div`
-    .infoWrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+    h1, div {
+        color: ${props => props.theme.elements.text};
     }
 
     .info {
@@ -26,10 +23,12 @@ const Wrapper = styled.div`
         border-radius: 50%;
     }
 
-    .info p {
+    .info div {
         text-align: justify;
         max-width: 400px;
         padding: 30px 15px;
+        font-weight: 200;
+        font-family: 'Roboto';
     }
 `
 
@@ -40,9 +39,10 @@ const About = props => {
                 <Wrapper>
                     <div className="infoWrapper">
                         <h1>Um pouco sobre mim :)</h1>
+                        <hr/>
                         <div className="info">
                             <img src="src\media\eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
-                            <p>
+                            <div>
                                 Oi, meu nome é Eduardo, sou estudante do quinto período de Ciência da Computação,
                                 possuo
                                 raciocínio
@@ -52,7 +52,7 @@ const About = props => {
                                 utilizando tecnologias como React, ao mesmo tempo que procuro por uma oportunidade
                                 para
                                 mostrar minhas habilidades como desenvolvedor.
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </Wrapper>
