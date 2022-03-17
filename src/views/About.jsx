@@ -3,10 +3,6 @@ import { CardTemplate } from '../components/CardTemplate'
 import { SectionContainer } from '../components/SectionContainer'
 
 const Wrapper = styled.div`
-    h1, div {
-        color: ${props => props.theme.elements.text};
-    }
-
     .info {
         display: flex;
         flex-direction: column;

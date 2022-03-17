@@ -10,10 +10,17 @@ export const MenuStyledComponent = styled.div`
         }
     }
 
+    @media screen and (min-width: 767px) {
+        .mobileMenu {
+            display:none;
+        }
+    }
+
     position: fixed;
     width: 100%;
 
     .menu {
+        z-index: 2;
         display: flex;
         justify-content: space-between;
         align-items: center;
