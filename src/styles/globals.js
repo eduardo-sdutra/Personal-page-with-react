@@ -29,4 +29,18 @@ export default createGlobalStyle`
         background-color: ${props => props.theme.elements.text};
         margin-top: 16px;
     }
+    .mobile-menu-enter {
+        transform: translateX(-110%);
+    }
+    .mobile-menu-enter-active {
+        transform: translateX(0%);
+        transition: 0.3s;
+    }
+    .mobile-menu-exit {
+        transform: translateX(0%);
+    }   
+    .mobile-menu-exit-active {
+        transform: translateX(-110%);
+        transition: transform 0.3s;
+    }
 `
