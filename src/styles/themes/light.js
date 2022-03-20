@@ -7,6 +7,7 @@ export default {
     },
     elements: {
         background: '#d1d1e9',
+        background_mobile_menu: '#ebebf9',
         text: '#2b2c34',
         inputBackground: '#fffffe',
     }

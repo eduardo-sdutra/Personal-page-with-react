@@ -17,7 +17,7 @@ export const CardTemplate = styled.div`
     color: #2b2c34;
 
     border-radius: 25px;
-    width: 520px;
+    width: 900px;
     padding: 0 20px;
 
     h1 {

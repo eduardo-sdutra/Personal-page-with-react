@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 import { CSSTransition } from 'react-transition-group'
-import { useState } from 'react'
-import { useEffect } from 'react'
 
 const MobileMenuDiv = styled.div`
-    background-color: #eee;
+    background-color: ${props => props.theme.elements.background_mobile_menu};
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 65%;
     height: 100%;
     position:fixed;
@@ -17,11 +16,13 @@ const MobileMenuDiv = styled.div`
         color: ${props => props.theme.elements.text}
     }
 
-    .mobileMenuWrapper ul {
+    .mobileMenuWrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
 
+    .mobileMenuWrapper ul {
         list-style: none;
     }
 

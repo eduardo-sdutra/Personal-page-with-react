@@ -21,7 +21,6 @@ const Wrapper = styled.div`
 
     .info div {
         text-align: justify;
-        max-width: 400px;
         padding: 30px 15px;
         font-weight: 200;
         font-family: 'Roboto';
