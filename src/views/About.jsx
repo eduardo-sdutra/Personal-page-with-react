@@ -1,8 +1,13 @@
 import styled from 'styled-components'
 import { CardTemplate } from '../components/CardTemplate'
 import { SectionContainer } from '../components/SectionContainer'
+import { SiGithub, SiLinkedin } from 'react-icons/si'
 
 const Wrapper = styled.div`
+    a, a:hover, a:focus, a:active {
+        color: ${props => props.theme.elements.text};
+    }
+
     .info {
         display: flex;
         flex-direction: column;
@@ -25,6 +30,29 @@ const Wrapper = styled.div`
         font-weight: 200;
         font-family: 'Roboto';
     }
+
+    .aboutMedia {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-itens: center;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-itens: center;
+        margin: 0 30px;
+    }
+
+    .social a {
+        margin: 6px 0;
+    }
+
+    .icon {
+        color: ${props => props.theme.elements.text}
+    }
 `
 
 const About = props => {
@@ -36,7 +64,17 @@ const About = props => {
                         <h1>Um pouco sobre mim :)</h1>
                         <hr/>
                         <div className="info">
-                            <img src="src\media\eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
+                            <div className="aboutMedia">
+                                <div className="social">
+                                    <a href="https://github.com/eduardo-sdutra" target="_blank">
+                                        <SiGithub size={30} className="icon" />
+                                    </a>
+                                    <a href="https://linkedin.com/in/eduardo-soares-dutra-b00273217" target="_blank">
+                                        <SiLinkedin size={30} className="icon" />
+                                    </a>
+                                </div>
+                                <img src="src\media\eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
+                            </div>
                             <div>
                                 Oi, meu nome é Eduardo, sou estudante do quinto período de Ciência da Computação,
                                 possuo

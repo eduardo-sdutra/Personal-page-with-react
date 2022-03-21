@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const CardTemplate = styled.div`
-    @media (min-width: 523px) {
-        margin: 0 30px;
+    @media (min-width: 767px) {
+        width: 900px;
     }
 
     @media (max-width: 768px) {
-        width: 100%
+        width: 100vw;
     }
 
     display: flex;
@@ -17,7 +17,7 @@ export const CardTemplate = styled.div`
     color: #2b2c34;
 
     border-radius: 25px;
-    width: 900px;
+    
     padding: 0 20px;
 
     h1 {
