@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin } from 'react-icons/si'
 
 const Wrapper = styled.div`
     a, a:hover, a:focus, a:active {
-        color: ${props => props.theme.elements.text};
+        color: ${props => props.theme.colors.primary};
     }
 
     .info {
@@ -51,7 +51,7 @@ const Wrapper = styled.div`
     }
 
     .icon {
-        color: ${props => props.theme.elements.text}
+        color: ${props => props.theme.colors.primary}
     }
 `
 

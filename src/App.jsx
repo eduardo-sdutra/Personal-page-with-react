@@ -9,6 +9,7 @@ import Menu from './components/Menu'
 import Header from './views/Header'
 import About from './views/About'
 import Skills from './views/Skills'
+import Contact from './views/Contact'
 
 const CardWrapper = styled.div`
   display: flex;
@@ -35,6 +36,7 @@ function App() {
         <CardWrapper>
           <About />
           <Skills />
+          <Contact />
         </CardWrapper>
       </ThemeProvider>
     </div>
