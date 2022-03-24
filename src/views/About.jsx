@@ -62,7 +62,7 @@ const About = props => {
                 <Wrapper>
                     <div className="infoWrapper">
                         <h1>Um pouco sobre mim :)</h1>
-                        <hr/>
+                        <hr />
                         <div className="info">
                             <div className="aboutMedia">
                                 <div className="social">

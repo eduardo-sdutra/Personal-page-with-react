@@ -6,11 +6,12 @@ export const CardTemplate = styled.div`
     }
 
     @media (max-width: 768px) {
-        width: 100vw;
+        width: 100%;
     }
 
+    max-width: 900px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;

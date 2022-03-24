@@ -11,7 +11,6 @@ import {
 } from "react-icons/si";
 
 const Wrapper = styled.div`
-
   .skillIconDiv{
       padding: 30px 0px;
       display: flex;
@@ -24,10 +23,6 @@ const Wrapper = styled.div`
     height: 150px;
     display: flex;
     justify-content: space-around;
-  }
-
-  .infoWrapper h1 {
-    color: ${(props) => props.theme.elements.text};
   }
 
   .icon {
@@ -68,7 +63,7 @@ const Skills = (props) => {
                 </div>
                 <div>
                   <SiReact className="icon" />
-                  <span className="skillLabel">ReactJS</span>
+                  <span className="skillLabel">React</span>
                 </div>
               </div>
 
