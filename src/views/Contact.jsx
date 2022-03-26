@@ -45,7 +45,7 @@ const Wrapper = styled.div`
 
 const Contact = props => {
     return (
-        <SectionContainer>
+        <SectionContainer id="contato">
             <CardTemplate>
                 <Wrapper>
                     <div className="infoWrapper">

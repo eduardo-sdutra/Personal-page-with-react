@@ -50,7 +50,7 @@ const Wrapper = styled.div`
 
 const Header = props => {
     return (
-        <SectionContainer>
+        <SectionContainer id="inicio">
             <Wrapper className='header'>
                     <h1>Eduardo Soares Dutra</h1>
                     <h2>Estudante de Ciência da Computação e Desenvolvedor Web</h2>

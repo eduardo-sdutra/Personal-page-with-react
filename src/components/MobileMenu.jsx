@@ -46,13 +46,13 @@ const MobileMenu = props => {
                         <a href="#inicio">Início</a>
                     </li>
                     <li>
-                        <a href="#sc-dkPtRN cmlbRe">Sobre</a>
+                        <a href="#sobre">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Habilidades</a>
+                        <a href="#habilidades">Habilidades</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
             </MobileMenuDiv>

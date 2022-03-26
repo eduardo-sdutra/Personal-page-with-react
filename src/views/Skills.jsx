@@ -38,7 +38,7 @@ const Wrapper = styled.div`
 
 const Skills = (props) => {
   return (
-    <SectionContainer>
+    <SectionContainer id="habilidades">
       <CardTemplate>
         <Wrapper>
           <div className="infoWrapper">
