@@ -16,6 +16,8 @@ const Menu = props => {
     const switchThemeIcon = props.theme.title === 'light' ? <BsSunFill size={25} /> : <RiMoonFill size={25} />
     const name = 'eduardo'
 
+    function closeMobileMenu() {setOpenMobileMenu(!openMobileMenu)}
+
     return (
         <MenuStyledComponent>
             <nav className='menu'>
@@ -37,7 +39,7 @@ const Menu = props => {
                 </ul>
                 <ToggleTheme className="themeModeButton" onClick={props.toggleTheme}>{switchThemeIcon}</ToggleTheme>
             </nav>
-            <MobileMenu openMobileMenu={openMobileMenu} />
+            <MobileMenu openMobileMenu={openMobileMenu} closeMobileMenu={closeMobileMenu} />
         </MenuStyledComponent>
     )
 }

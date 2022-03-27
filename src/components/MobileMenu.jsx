@@ -43,16 +43,16 @@ const MobileMenu = props => {
             <MobileMenuDiv>
                 <ul className="mobileMenuWrapper">
                     <li>
-                        <a href="#inicio">Início</a>
+                        <a href="#inicio" onClick={() => props.closeMobileMenu()}>Início</a>
                     </li>
                     <li>
-                        <a href="#sobre">Sobre</a>
+                        <a href="#sobre" onClick={() => props.closeMobileMenu()}>Sobre</a>
                     </li>
                     <li>
-                        <a href="#habilidades">Habilidades</a>
+                        <a href="#habilidades" onClick={() => props.closeMobileMenu()}>Habilidades</a>
                     </li>
                     <li>
-                        <a href="#contato">Contato</a>
+                        <a href="#contato" onClick={() => props.closeMobileMenu()}>Contato</a>
                     </li>
                 </ul>
             </MobileMenuDiv>

@@ -10,6 +10,7 @@ import Header from './views/Header'
 import About from './views/About'
 import Skills from './views/Skills'
 import Contact from './views/Contact'
+import Footer from './components/footer'
 
 const CardWrapper = styled.div`
   display: flex;
@@ -38,6 +39,7 @@ function App() {
           <Skills />
           <Contact />
         </CardWrapper>
+        <Footer />
       </ThemeProvider>
     </div>
   )
