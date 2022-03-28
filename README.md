@@ -1,2 +1,2 @@
 # personal-page
- A simple page containing such as personal and professional information about myself.
+ A simple page containing personal and professional information about myself.
