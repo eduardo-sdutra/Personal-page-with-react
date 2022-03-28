@@ -66,7 +66,7 @@ const About = props => {
                         <div className="info">
                             <div className="aboutMedia">
                                 <div className="social">
-                                    <a href="https://github.com/eduardo-sdutra" target="_blank">
+                                    <a href="https://github.com/eduardosoaresdutra" target="_blank">
                                         <SiGithub size={30} className="icon" />
                                     </a>
                                     <a href="https://linkedin.com/in/eduardo-soares-dutra-b00273217" target="_blank">
