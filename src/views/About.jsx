@@ -73,7 +73,7 @@ const About = props => {
                                         <SiLinkedin size={30} className="icon" />
                                     </a>
                                 </div>
-                                <img src="src\media\eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
+                                <img src="/eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
                             </div>
                             <p>
                                 Oi, meu nome é Eduardo, sou estudante de Ciência da Computação,

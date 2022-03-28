@@ -56,10 +56,10 @@ const Header = props => {
                     <h2>Estudante de Ciência da Computação e Desenvolvedor Web</h2>
                     <div className='images'>
                         <div className='imageOne'>
-                            <img src="src\media\Code typing-pana.svg" alt="Developer 1" />
+                            <img src="Code typing-pana.svg" alt="Developer 1" />
                         </div>
                         <div className='imageTwo'>
-                            <img src="src\media\Mobile development-pana.svg" alt="Developer 2" />
+                            <img src="Mobile development-pana.svg" alt="Developer 2" />
                         </div>
                     </div>
             </Wrapper>
