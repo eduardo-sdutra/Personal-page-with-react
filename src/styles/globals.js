@@ -16,12 +16,8 @@ export default createGlobalStyle`
         color: ${props => props.theme.elements.text};
         font-family: 'Ubuntu';
     }
-    h1, div, p, span {
+    h1, div, p, a, span {
         color: ${props => props.theme.elements.text};
-    }
-    .App {
-        display: flex;
-        flex-direction: column;
     }
     .infoWrapper h1 {
         font-weight: 400;

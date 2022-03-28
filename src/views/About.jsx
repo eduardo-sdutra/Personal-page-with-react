@@ -24,7 +24,7 @@ const Wrapper = styled.div`
         border-radius: 50%;
     }
 
-    .info div {
+    .info p {
         text-align: justify;
         padding: 30px 15px;
         font-weight: 200;
@@ -75,17 +75,16 @@ const About = props => {
                                 </div>
                                 <img src="src\media\eduardoSoaresDutra.jpg" alt="Eduardo Soares Dutra" />
                             </div>
-                            <div>
-                                Oi, meu nome é Eduardo, sou estudante do quinto período de Ciência da Computação,
-                                possuo
-                                raciocínio
-                                lógico e criativo desenvolvidos,
-                                além de conhecimento e domínio da lógica de programação, conceitos de programação e
-                                desenvolvimento de software. Atualmente estou me aventurando no desenvolvimento web
-                                utilizando tecnologias como React, ao mesmo tempo que procuro por uma oportunidade
+                            <p>
+                                Oi, meu nome é Eduardo, sou estudante de Ciência da Computação,
+                                apaixonado por tecnologia, programação e desenvolvimento de software. Possuo conhecimento e
+                                domínio de lógica de programação, conceitos e paradigmas de programação
+                                e desenvolvimento de software, como programação orientada a objetos e funcional.
+                                Atualmente estou me aventurando no desenvolvimento web
+                                utilizando tecnologias como React, ao mesmo tempo que procuro por oportunidades
                                 para
-                                mostrar minhas habilidades como desenvolvedor.
-                            </div>
+                                aprimorar meus conhecimentos e mostrar minhas habilidades como desenvolvedor.
+                            </p>
                         </div>
                     </div>
                 </Wrapper>

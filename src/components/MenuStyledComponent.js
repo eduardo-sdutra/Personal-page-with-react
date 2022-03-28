@@ -4,13 +4,13 @@ export const MenuStyledComponent = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-    @media (max-width: 768px) {
+    @media (max-width: 769px) {
         .menuLinks li a {
             display: none;
         }
     }
 
-    @media screen and (min-width: 767px) {
+    @media (min-width: 769px) {
         .mobileMenu {
             display:none;
         }

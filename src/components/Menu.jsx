@@ -21,7 +21,7 @@ const Menu = props => {
     return (
         <MenuStyledComponent>
             <nav className='menu'>
-                <a href="#" className="mobileMenu" onClick={() => setOpenMobileMenu(!openMobileMenu)}>{mobileMenuIcon}</a>
+                <a className="mobileMenu" onClick={() => setOpenMobileMenu(!openMobileMenu)}>{mobileMenuIcon}</a>
                 <span className="name">{name}</span>
                 <ul className="menuLinks">
                     <li>
