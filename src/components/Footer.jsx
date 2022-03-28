@@ -14,8 +14,12 @@ const Wrapper = styled.div`
         color: #2b2c34;
     }
 
-    div, p {
-        margin: 4px 0;
+    a {
+        font-size: 0.9rem;
+    }
+
+    div, a {
+        margin: 4px 4px;
     }
 
     #reactIcon {
@@ -36,7 +40,10 @@ const Footer = props => {
                 <div className="madeWith">
                     <p>Feito com </p><SiReact id="reactIcon" size={30} />
                 </div>
-                <p>Ilustrações fornecidas por <a href="https://storyset.com/work">Storyset</a></p>
+                <div>
+                    <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+                    <a href="https://www.flaticon.com/br/icones-gratis/ui" title="ui ícones">Ui ícones criados por Circlon Tech - Flaticon</a>
+                </div>
             </Wrapper>
         </footer>
     )
