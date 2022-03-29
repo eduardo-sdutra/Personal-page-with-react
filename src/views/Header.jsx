@@ -2,8 +2,6 @@ import styled from 'styled-components'
 import { SectionContainer } from '../components/SectionContainer'
 
 const Wrapper = styled.div`
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
     @media (min-width: 501px) {
         img {
             width: 500px;
