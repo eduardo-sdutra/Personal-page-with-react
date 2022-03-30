@@ -36,10 +36,14 @@ export const MenuStyledComponent = styled.div`
         list-style: none;
     }
 
+    .menu li {
+        margin: 4px;
+    }
+
     .menu a {
         text-decoration: none;
         color: ${props => props.theme.elements.text};
-        padding: 0px 10px;
+        padding: 0px 6px;
     }
 
     .name {
